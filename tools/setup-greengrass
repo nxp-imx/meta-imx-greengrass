@@ -44,5 +44,5 @@ fi
 
 echo ""
 echo "You can now create an image with Greengrass. For example:"
-echo "    $ bitbake core-image-base"
+echo "    $ bitbake imx-image-multimedia"
 echo ""
