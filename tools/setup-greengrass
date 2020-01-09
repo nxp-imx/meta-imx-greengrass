@@ -17,6 +17,9 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
+if [ -z "$DISTRO" ]; then
+    DISTRO=fsl-imx-xwayland
+fi
 if [ ! -e $1/conf/local.conf.sample ]; then
     EULA=$EULA DISTRO=$DISTRO MACHINE=$MACHINE . fsl-setup-release.sh -b $@
     if [ ! -e conf/local.conf ]; then
