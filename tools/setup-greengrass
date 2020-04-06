@@ -21,7 +21,7 @@ if [ -z "$DISTRO" ]; then
     DISTRO=fsl-imx-xwayland
 fi
 if [ ! -e $1/conf/local.conf.sample ]; then
-    EULA=$EULA DISTRO=$DISTRO MACHINE=$MACHINE . fsl-setup-release.sh -b $@
+    EULA=$EULA DISTRO=$DISTRO MACHINE=$MACHINE . imx-setup-release.sh -b $@
     if [ ! -e conf/local.conf ]; then
         return
     fi

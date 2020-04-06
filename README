@@ -6,10 +6,10 @@ Yocto Project BSP.
 
 This layer depends on:
 
-URI: https://source.codeaurora.org/external/imx/meta-fsl-bsp-release
-branch: sumo-4.14.98-2.0.0_ga
-revision: 8eeb420fad668b733ab95b460895e1c337c66b25
+URI: https://source.codeaurora.org/external/imx/meta-imx
+branch: zeus-5.4.3-1.0.0
+revision: 7c882d8f94ff20989facdc43a3f23152dec3fb4d
 
 See README-Greengrass here for usage instructions:
 
-https://source.codeaurora.org/external/imx/imx-manifest/tree/?h=imx-linux-sumo
+https://source.codeaurora.org/external/imx/imx-manifest/tree/?h=imx-linux-zeus
