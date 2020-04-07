@@ -9,6 +9,8 @@ This layer depends on:
 URI: https://source.codeaurora.org/external/imx/meta-imx
 branch: zeus-5.4.3-1.0.0
 revision: 7c882d8f94ff20989facdc43a3f23152dec3fb4d
+branch: zeus-5.4.3-2.0.0
+revision: 63ead63f53bfd2fbe8499859c569ec5ab7cd10ce
 
 See README-Greengrass here for usage instructions:
 
